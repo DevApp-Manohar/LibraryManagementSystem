@@ -10,7 +10,7 @@ public class LibraryManagementSystem {
         LibraryManager libraryManager = new LibraryManager();
 
         while (true) {
-            System.out.println("\nLibrary Management System");
+            System.out.println("\n ******Library Management System******");
             System.out.println("1. Add Book");
             System.out.println("2. Remove Book");
             System.out.println("3. Search Book");
@@ -29,11 +29,11 @@ public class LibraryManagementSystem {
 
             switch (choice) {
                 case 1:
-                    System.out.print("Enter book title: ");
+                    System.out.print("Enter book title You want to submit: ");
                     String title = scanner.nextLine();
-                    System.out.print("Enter author name: ");
+                    System.out.print("Enter Book's author name: ");
                     String author = scanner.nextLine();
-                    System.out.print("Enter ISBN: ");
+                    System.out.print("Enter ISBN No of BOOK: ");
                     String isbn = scanner.nextLine();
                     System.out.print("Enter publication year: ");
                     int year = scanner.nextInt();
